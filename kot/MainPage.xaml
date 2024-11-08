@@ -7,18 +7,27 @@
         <VerticalStackLayout
             Padding="30,0"
             Spacing="25">
-            <Image
-                Source="kot0"
-                x:Name="kot0"
-                HeightRequest="100"
-                Aspect="AspectFit" />
 
             <Button
                 Text="kot" 
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Fill" />
-            <Slider x:Name="bigkatze0" Minimum="100" Maximum="1000" Value="10" />
+            <Slider x:Name="bigkatze0" Minimum="100" Maximum="1000" Value="1" />
+            <Image
+                Source="kot0"
+                x:Name="kot0"
+                HeightRequest="100"
+                Aspect="AspectFit" />
+
+
+            <Button
+                Text="kot.gif" 
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClicked1"
+                HorizontalOptions="Fill" />
+            <Slider x:Name="bigkatze1" Minimum="100" Maximum="1000" Value="1" />
+
             <Image
                 Source="kot1"
                 x:Name="kot1"
@@ -26,40 +35,31 @@
                 Aspect="AspectFit" />
 
             <Button
-                Text="kot.gif" 
+                Text="kot.text" 
                 SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked1"
+                Clicked="OnCounterClicked2"
                 HorizontalOptions="Fill" />
-            <Slider x:Name="bigkatze1" Minimum="100" Maximum="1000" Value="10" />
+            <Slider x:Name="bigkatze2" Minimum="100" Maximum="1000" Value="1" />
             <Image
                 Source="kot2"
                 x:Name="kot2"
                 HeightRequest="100"
                 Aspect="AspectFit" />
             <Entry x:Name="kot2say" Text="hehe"/>
+
             <Button
-                Text="kot.text" 
+                Text="kot.gif.text" 
                 SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked2"
+                Clicked="OnCounterClicked3"
                 HorizontalOptions="Fill" />
-            <Slider x:Name="bigkatze2" Minimum="100" Maximum="1000" Value="10" />
+            <Slider x:Name="bigkatze3" Minimum="100" Maximum="1000" Value="1" />
             <Image
                 Source="kot3"
                 x:Name="kot3"
                 HeightRequest="100"
                 Aspect="AspectFit" />
             <Entry x:Name="kot3say" Text="hehe"/>
-            <Button
-                Text="kot.gif.text" 
-                SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked3"
-                HorizontalOptions="Fill" />
-            <Slider x:Name="bigkatze3" Minimum="100" Maximum="1000" Value="10" />
-            <Image
-                Source="kot4"
-                x:Name="kot4"
-                HeightRequest="100"
-                Aspect="AspectFit" />
+
             <Entry x:Name="kot4say" Text="hehe"/>
             <Entry x:Name="kot4font" Text="40"/>
             <Entry x:Name="kot4color" Text="green"/>
@@ -68,7 +68,12 @@
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="OnCounterClicked4"
                 HorizontalOptions="Fill" />
-            <Slider x:Name="bigkatze4" Minimum="100" Maximum="1000" Value="10" />
+            <Slider x:Name="bigkatze4" Minimum="100" Maximum="1000" Value="1" />
+            <Image
+                Source="kot4"
+                x:Name="kot4"
+                HeightRequest="100"
+                Aspect="AspectFit" />
         </VerticalStackLayout>
     </ScrollView>
 
