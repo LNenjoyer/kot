@@ -10,7 +10,7 @@
             <Image
                 Source="kot0"
                 x:Name="kot0"
-                HeightRequest="400"
+                HeightRequest="100"
                 Aspect="AspectFit" />
 
             <Button
@@ -18,10 +18,11 @@
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Fill" />
+            <Slider x:Name="bigkatze0" Minimum="100" Maximum="1000" Value="10" />
             <Image
                 Source="kot1"
                 x:Name="kot1"
-                HeightRequest="400"
+                HeightRequest="100"
                 Aspect="AspectFit" />
 
             <Button
@@ -29,11 +30,11 @@
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="OnCounterClicked1"
                 HorizontalOptions="Fill" />
-
+            <Slider x:Name="bigkatze1" Minimum="100" Maximum="1000" Value="10" />
             <Image
                 Source="kot2"
                 x:Name="kot2"
-                HeightRequest="400"
+                HeightRequest="100"
                 Aspect="AspectFit" />
             <Entry x:Name="kot2say" Text="hehe"/>
             <Button
@@ -41,10 +42,11 @@
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="OnCounterClicked2"
                 HorizontalOptions="Fill" />
+            <Slider x:Name="bigkatze2" Minimum="100" Maximum="1000" Value="10" />
             <Image
                 Source="kot3"
                 x:Name="kot3"
-                HeightRequest="400"
+                HeightRequest="100"
                 Aspect="AspectFit" />
             <Entry x:Name="kot3say" Text="hehe"/>
             <Button
@@ -52,10 +54,11 @@
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="OnCounterClicked3"
                 HorizontalOptions="Fill" />
+            <Slider x:Name="bigkatze3" Minimum="100" Maximum="1000" Value="10" />
             <Image
                 Source="kot4"
                 x:Name="kot4"
-                HeightRequest="400"
+                HeightRequest="100"
                 Aspect="AspectFit" />
             <Entry x:Name="kot4say" Text="hehe"/>
             <Entry x:Name="kot4font" Text="40"/>
@@ -65,6 +68,7 @@
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="OnCounterClicked4"
                 HorizontalOptions="Fill" />
+            <Slider x:Name="bigkatze4" Minimum="100" Maximum="1000" Value="10" />
         </VerticalStackLayout>
     </ScrollView>
 

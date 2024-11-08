@@ -8,6 +8,32 @@ namespace kot
         public MainPage()
         {
             InitializeComponent();
+            bigkatze0.ValueChanged += (s, e) =>
+            {
+                double pct = Math.Round(e.NewValue);
+                kot0.HeightRequest = pct;
+            };
+            bigkatze1.ValueChanged += (s, e) =>
+            {
+                double pct = Math.Round(e.NewValue);
+                kot1.HeightRequest = pct;
+            };
+            bigkatze2.ValueChanged += (s, e) =>
+            {
+                double pct = Math.Round(e.NewValue);
+                kot2.HeightRequest = pct;
+            };
+            bigkatze3.ValueChanged += (s, e) =>
+            {
+                double pct = Math.Round(e.NewValue);
+                kot3.HeightRequest = pct;
+            };
+            bigkatze4.ValueChanged += (s, e) =>
+            {
+                double pct = Math.Round(e.NewValue);
+                kot4.HeightRequest = pct;
+            };
+
         }
 
         private void OnCounterClicked(object sender, EventArgs e)
@@ -28,7 +54,7 @@ namespace kot
             string kot3s = kot3say.Text;
             kot3.Source = "https://cataas.com/cat/gif/says/" + kot3s;
         }
-            private void OnCounterClicked4(object sender, EventArgs e)
+        private void OnCounterClicked4(object sender, EventArgs e)
         {
             string kot4s = kot4say.Text;
             string kot4fs = kot4font.Text;
